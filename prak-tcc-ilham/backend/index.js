@@ -12,10 +12,10 @@ app.use(express.urlencoded({ extended: true })); // Untuk menerima form-data
 
 // Setup database connection
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: '34.28.203.160',
   user: 'root',
   password: '', // Password kosong
-  database: 'notes_ilham'
+  database: 'ham'
 });
 
 // Connect to the database
